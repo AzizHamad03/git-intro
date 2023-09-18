@@ -4,7 +4,8 @@ class lab03 {
         System.out.println("test");
     }
 
-    public static void selectionSort(int[] array) {
+
+    private static void selectionSort(int[] array) {
         int len = array.length;
         for (int i = 0; i < len - 1; i++) {
 
@@ -19,7 +20,7 @@ class lab03 {
         }
     }
 
-    public static void insertionSort(int[] array) {
+    private static void insertionSort(int[] array) {
         for (int i = 1; i < array.length; ++i) {
             int key = array[i];
             int j = i - 1;
