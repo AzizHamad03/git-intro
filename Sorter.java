@@ -4,7 +4,7 @@ class lab03 {
         System.out.println("test");
     }
 
-    void selectionSort(int[] array) {
+    public static void selectionSort(int[] array) {
         int len = array.length;
         for (int i = 0; i < len - 1; i++) {
 
